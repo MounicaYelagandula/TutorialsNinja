@@ -1,21 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-08T10:08:59 EDT" name="TutorialsNinjaTestSuite" finished-at="2023-05-08T10:09:16 EDT" duration-ms="17519">
+  <suite started-at="2023-05-08T12:24:30 EDT" name="TutorialsNinjaTestSuite" finished-at="2023-05-08T12:25:22 EDT" duration-ms="51874">
     <groups>
     </groups>
-    <test started-at="2023-05-08T10:08:59 EDT" name="Test" finished-at="2023-05-08T10:09:16 EDT" duration-ms="17519">
-      <class name="com.TutorialsNinja.qa.Testcases.SearchTestcases">
-        <test-method signature="searchWithValidProduct()[pri:1, instance:com.TutorialsNinja.qa.Testcases.SearchTestcases@5a59ca5e]" started-at="2023-05-08T10:08:59 EDT" name="searchWithValidProduct" finished-at="2023-05-08T10:09:09 EDT" duration-ms="10152" status="PASS">
+    <test started-at="2023-05-08T12:24:30 EDT" name="Test" finished-at="2023-05-08T12:25:22 EDT" duration-ms="51874">
+      <class name="com.TutorialsNinja.qa.Testcases.RegisterTestcases">
+        <test-method signature="registerTestcase1()[pri:1, instance:com.TutorialsNinja.qa.Testcases.RegisterTestcases@d554c5f]" started-at="2023-05-08T12:24:59 EDT" name="registerTestcase1" finished-at="2023-05-08T12:25:05 EDT" duration-ms="6943" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchWithValidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.SearchTestcases@5a59ca5e]" started-at="2023-05-08T10:09:09 EDT" name="tearDown" finished-at="2023-05-08T10:09:10 EDT" duration-ms="649" status="PASS">
+        </test-method> <!-- registerTestcase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.RegisterTestcases@d554c5f]" started-at="2023-05-08T12:25:06 EDT" name="tearDown" finished-at="2023-05-08T12:25:06 EDT" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="searchWithInvalidProduct()[pri:2, instance:com.TutorialsNinja.qa.Testcases.SearchTestcases@5a59ca5e]" started-at="2023-05-08T10:09:10 EDT" name="searchWithInvalidProduct" finished-at="2023-05-08T10:09:16 EDT" duration-ms="5664" status="FAIL">
+        <test-method signature="registerTestcase2()[pri:2, instance:com.TutorialsNinja.qa.Testcases.RegisterTestcases@d554c5f]" started-at="2023-05-08T12:25:06 EDT" name="registerTestcase2" finished-at="2023-05-08T12:25:12 EDT" duration-ms="5678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestcase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.RegisterTestcases@d554c5f]" started-at="2023-05-08T12:25:12 EDT" name="tearDown" finished-at="2023-05-08T12:25:12 EDT" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TutorialsNinja.qa.Testcases.RegisterTestcases -->
+      <class name="com.TutorialsNinja.qa.Testcases.LoginTest">
+        <test-method signature="LoginTestcase1Valid(java.lang.String,java.lang.String)[pri:1, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:31 EDT" name="LoginTestcase1Valid" data-provider="validCredentials" finished-at="2023-05-08T12:24:37 EDT" duration-ms="6713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotoori3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcase1Valid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:37 EDT" name="tearDown" finished-at="2023-05-08T12:24:38 EDT" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LoginTestcase1Valid(java.lang.String,java.lang.String)[pri:1, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:38 EDT" name="LoginTestcase1Valid" data-provider="validCredentials" finished-at="2023-05-08T12:24:43 EDT" duration-ms="5191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotoori3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcase1Valid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:43 EDT" name="tearDown" finished-at="2023-05-08T12:24:43 EDT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LoginTestcase1Valid(java.lang.String,java.lang.String)[pri:1, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:43 EDT" name="LoginTestcase1Valid" data-provider="validCredentials" finished-at="2023-05-08T12:24:48 EDT" duration-ms="5088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotoori3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcase1Valid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:48 EDT" name="tearDown" finished-at="2023-05-08T12:24:48 EDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LoginTestcase2Invalid()[pri:2, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:48 EDT" name="LoginTestcase2Invalid" finished-at="2023-05-08T12:24:53 EDT" duration-ms="4519" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#input\-email"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [281a595ad50365e75898147a47eb4556, findElement {using=id, value=input-email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mouni\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52392}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52392/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 281a595ad50365e75898147a47eb4556]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#input\-email"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [281a595ad50365e75898147a47eb4556, findElement {using=id, value=input-email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mouni\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52392}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52392/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 281a595ad50365e75898147a47eb4556
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at pageObjects.HomePage.login(HomePage.java:53)
+at com.TutorialsNinja.qa.Testcases.LoginTest.LoginTestcase2Invalid(LoginTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcase2Invalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:53 EDT" name="tearDown" finished-at="2023-05-08T12:24:53 EDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LoginTestcase3InvalidEmailOnly()[pri:3, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:53 EDT" name="LoginTestcase3InvalidEmailOnly" finished-at="2023-05-08T12:24:58 EDT" duration-ms="4760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcase3InvalidEmailOnly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.LoginTest@6f53b8a]" started-at="2023-05-08T12:24:58 EDT" name="tearDown" finished-at="2023-05-08T12:24:59 EDT" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TutorialsNinja.qa.Testcases.LoginTest -->
+      <class name="com.TutorialsNinja.qa.Testcases.SearchTestcases">
+        <test-method signature="searchWithValidProduct()[pri:1, instance:com.TutorialsNinja.qa.Testcases.SearchTestcases@2dfaea86]" started-at="2023-05-08T12:25:12 EDT" name="searchWithValidProduct" finished-at="2023-05-08T12:25:17 EDT" duration-ms="4607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.SearchTestcases@2dfaea86]" started-at="2023-05-08T12:25:17 EDT" name="tearDown" finished-at="2023-05-08T12:25:17 EDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchWithInvalidProduct()[pri:2, instance:com.TutorialsNinja.qa.Testcases.SearchTestcases@2dfaea86]" started-at="2023-05-08T12:25:17 EDT" name="searchWithInvalidProduct" finished-at="2023-05-08T12:25:21 EDT" duration-ms="4280" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -65,7 +239,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchWithInvalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.SearchTestcases@5a59ca5e]" started-at="2023-05-08T10:09:16 EDT" name="tearDown" finished-at="2023-05-08T10:09:16 EDT" duration-ms="556" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.qa.Testcases.SearchTestcases@2dfaea86]" started-at="2023-05-08T12:25:21 EDT" name="tearDown" finished-at="2023-05-08T12:25:22 EDT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

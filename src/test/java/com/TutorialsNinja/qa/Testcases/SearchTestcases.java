@@ -25,7 +25,7 @@ public class SearchTestcases extends Base{
 		homePageObject.search("honda");
 		String msg=homePageObject.getNoSearchResultMessage();
 		Assert.assertEquals("There is no product that matches the search criteria.", msg);
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 	}
 
 	

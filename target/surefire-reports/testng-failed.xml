@@ -12,6 +12,12 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.TutorialsNinja.qa.Testcases.SearchTestcases -->
+      <class name="com.TutorialsNinja.qa.Testcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginTestcase2Invalid"/>
+        </methods>
+      </class> <!-- com.TutorialsNinja.qa.Testcases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [TutorialsNinjaTestSuite] -->

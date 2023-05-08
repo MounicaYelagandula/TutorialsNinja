@@ -3,6 +3,10 @@ package com.TutorialsNinja.qa.TestComponents;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -20,6 +24,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
+
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.HomePage;
@@ -42,7 +49,7 @@ public class Base {
 		
 		//String browserName="chrome";
 		loadPropertiesFile();
-		String browserName=p.getProperty("browser");
+		String browserName=System.getProperty("bname")!=null ? System.getProperty("bname"):p.getProperty("browser");
 		ChromeOptions co=new ChromeOptions();
 		co.addArguments("--remote-allow-origins=*");
 		if(browserName.equalsIgnoreCase("chrome"))
@@ -124,4 +131,16 @@ public class Base {
 		return System.getProperty("user.dir")+"/screenshots/"+testCaseName+".png";
 	}
 	
+	public void navigateBack()
+	{
+		driver.navigate().back();
+	}
+	
+	public List<HashMap<String,String>> convertJsonToMap(String jsonFilePath) throws IOException
+	{
+		String stringContent=FileUtils.readFileToString(new File(jsonFilePath),StandardCharsets.UTF_8);
+		ObjectMapper mapper=new ObjectMapper();
+		List<HashMap<String,String>> jsonhashmaps=mapper.readValue(stringContent, new TypeReference<List<HashMap<String,String>>>(){});
+		return jsonhashmaps;
+	}
 }

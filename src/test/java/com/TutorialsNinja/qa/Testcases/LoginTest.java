@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
@@ -72,5 +74,23 @@ public class LoginTest extends Base {
 		
 	}
 	
+	@Test(dataProvider = "supplyJsonData")
+	public void LoginTestcase4Valid(HashMap<String,String> map) throws IOException 
+	{
+		
+		HomePage homepageObject=launchApplication();
+		AccountPage accountPageObject=homepageObject.login(map.get("email"),map.get("password"));
+		Assert.assertTrue(homepageObject.VerifyLogin().isDisplayed(),"My Account is not displayed");
+		navigateBack();
+		//when testcase fails, the browser is not closing
+		
+	}
+	
+	@DataProvider
+	public Object[][] supplyJsonData() throws IOException
+	{
+		List<HashMap<String,String>> inputhashmaps=convertJsonToMap(System.getProperty("user.dir")+"\\src\\main\\java\\resourceFiles\\loginData.json");
+		return new Object[][]{{inputhashmaps.get(0)},{inputhashmaps.get(1)},{inputhashmaps.get(2)}};
+	}
 	
 }

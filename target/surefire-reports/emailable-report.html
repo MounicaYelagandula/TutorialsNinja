@@ -9,14 +9,47 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">TutorialsNinjaTestSuite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">17,519</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">51,874</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TutorialsNinjaTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.TutorialsNinja.qa.Testcases.SearchTestcases</td><td><a href="#m0">searchWithInvalidProduct</a></td><td rowspan="1">1683554950344</td><td rowspan="1">5664</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.TutorialsNinja.qa.Testcases.SearchTestcases</td><td><a href="#m1">searchWithValidProduct</a></td><td rowspan="1">1683554939514</td><td rowspan="1">10152</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TutorialsNinjaTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.TutorialsNinja.qa.Testcases.LoginTest</td><td><a href="#m0">LoginTestcase2Invalid</a></td><td rowspan="1">1683563088926</td><td rowspan="1">4519</td></tr><tr class="failedodd"><td rowspan="1">com.TutorialsNinja.qa.Testcases.SearchTestcases</td><td><a href="#m1">searchWithInvalidProduct</a></td><td rowspan="1">1683563117410</td><td rowspan="1">4280</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.TutorialsNinja.qa.Testcases.LoginTest</td><td><a href="#m2">LoginTestcase1Valid</a></td><td rowspan="3">1683563083603</td><td rowspan="3">5088</td></tr><tr class="passedeven"><td><a href="#m3">LoginTestcase1Valid</a></td></tr><tr class="passedeven"><td><a href="#m4">LoginTestcase1Valid</a></td></tr><tr class="passedeven"><td><a href="#m5">LoginTestcase3InvalidEmailOnly</a></td><td rowspan="1">1683563093945</td><td rowspan="1">4760</td></tr><tr class="passedodd"><td rowspan="2">com.TutorialsNinja.qa.Testcases.RegisterTestcases</td><td><a href="#m6">registerTestcase1</a></td><td rowspan="1">1683563099019</td><td rowspan="1">6943</td></tr><tr class="passedodd"><td><a href="#m7">registerTestcase2</a></td><td rowspan="1">1683563106591</td><td rowspan="1">5678</td></tr><tr class="passedeven"><td rowspan="1">com.TutorialsNinja.qa.Testcases.SearchTestcases</td><td><a href="#m8">searchWithValidProduct</a></td><td rowspan="1">1683563112601</td><td rowspan="1">4607</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.TutorialsNinja.qa.Testcases.SearchTestcases#searchWithInvalidProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+<h2>Test</h2><h3 id="m0">com.TutorialsNinja.qa.Testcases.LoginTest#LoginTestcase2Invalid</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#input\-email&quot;}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [281a595ad50365e75898147a47eb4556, findElement {using=id, value=input-email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mouni\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52392}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52392/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 281a595ad50365e75898147a47eb4556
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at pageObjects.HomePage.login(HomePage.java:53)
+	at com.TutorialsNinja.qa.Testcases.LoginTest.LoginTestcase2Invalid(LoginTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.TutorialsNinja.qa.Testcases.SearchTestcases#searchWithInvalidProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
 	at com.TutorialsNinja.qa.Testcases.SearchTestcases.searchWithInvalidProduct(SearchTestcases.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.TutorialsNinja.qa.Testcases.SearchTestcases#searchWithValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.TutorialsNinja.qa.Testcases.LoginTest#LoginTestcase1Valid</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>amotoori3@gmail.com</td><td>12345</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.TutorialsNinja.qa.Testcases.LoginTest#LoginTestcase1Valid</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>amotoori3@gmail.com</td><td>12345</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.TutorialsNinja.qa.Testcases.LoginTest#LoginTestcase1Valid</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>amotoori3@gmail.com</td><td>12345</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.TutorialsNinja.qa.Testcases.LoginTest#LoginTestcase3InvalidEmailOnly</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.TutorialsNinja.qa.Testcases.RegisterTestcases#registerTestcase1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.TutorialsNinja.qa.Testcases.RegisterTestcases#registerTestcase2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.TutorialsNinja.qa.Testcases.SearchTestcases#searchWithValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
