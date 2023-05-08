@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-TutorialsNinjaTestSuite" class="navigator-link">
-              <span class="suite-name border-passed">TutorialsNinjaTestSuite</span>
+              <span class="suite-name border-failed">TutorialsNinjaTestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TutorialsNinjaTestSuite" class="hide-methods failed suite-TutorialsNinjaTestSuite"> (hide)</a> <!-- hide-methods failed suite-TutorialsNinjaTestSuite -->
+                      <a href="#" panel-name="suite-TutorialsNinjaTestSuite" class="show-methods failed suite-TutorialsNinjaTestSuite"> (show)</a> <!-- show-methods failed suite-TutorialsNinjaTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-TutorialsNinjaTestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.SearchTestcases" class="method navigator-link" hash-for-method="searchWithInvalidProduct">searchWithInvalidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TutorialsNinjaTestSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,46 +116,6 @@
                       <a href="#" panel-name="suite-TutorialsNinjaTestSuite" class="show-methods passed suite-TutorialsNinjaTestSuite"> (show)</a> <!-- show-methods passed suite-TutorialsNinjaTestSuite -->
                     </span>
                     <div class="method-list-content passed suite-TutorialsNinjaTestSuite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.LoginTest1" class="method navigator-link" hash-for-method="LoginTestcase1Valid(amotoori3@gmail.com, 12345)">LoginTestcase1Valid(amotoori3@gmail.com, 12345)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.LoginTest1" class="method navigator-link" hash-for-method="LoginTestcase1Valid(amotoori3@gmail.com, 12345)">LoginTestcase1Valid(amotoori3@gmail.com, 12345)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.LoginTest1" class="method navigator-link" hash-for-method="LoginTestcase1Valid(amotoori3@gmail.com, 12345)">LoginTestcase1Valid(amotoori3@gmail.com, 12345)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.LoginTest1" class="method navigator-link" hash-for-method="LoginTestcase2Invalid">LoginTestcase2Invalid</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.LoginTest1" class="method navigator-link" hash-for-method="LoginTestcase3InvalidEmailOnly">LoginTestcase3InvalidEmailOnly</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.RegisterTestcases" class="method navigator-link" hash-for-method="registerTestcase1">registerTestcase1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.RegisterTestcases" class="method navigator-link" hash-for-method="registerTestcase2">registerTestcase2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.SearchTestcases" class="method navigator-link" hash-for-method="searchWithInvalidProduct">searchWithInvalidProduct</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TutorialsNinjaTestSuite" title="com.TutorialsNinja.qa.Testcases.SearchTestcases" class="method navigator-link" hash-for-method="searchWithValidProduct">searchWithValidProduct</a> <!-- method navigator-link -->
@@ -159,55 +133,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TutorialsNinjaTestSuite" class="panel TutorialsNinjaTestSuite">
-          <div class="suite-TutorialsNinjaTestSuite-class-passed">
+          <div class="suite-TutorialsNinjaTestSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.TutorialsNinja.qa.Testcases.LoginTest1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTestcase1Valid(amotoori3@gmail.com, 12345)">
-                  </a> <!-- LoginTestcase1Valid(amotoori3@gmail.com, 12345) -->
-                  <span class="method-name">LoginTestcase1Valid</span>
-                  <span class="parameters">(amotoori3@gmail.com, 12345)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTestcase1Valid(amotoori3@gmail.com, 12345)">
-                  </a> <!-- LoginTestcase1Valid(amotoori3@gmail.com, 12345) -->
-                  <span class="method-name">LoginTestcase1Valid</span>
-                  <span class="parameters">(amotoori3@gmail.com, 12345)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTestcase1Valid(amotoori3@gmail.com, 12345)">
-                  </a> <!-- LoginTestcase1Valid(amotoori3@gmail.com, 12345) -->
-                  <span class="method-name">LoginTestcase1Valid</span>
-                  <span class="parameters">(amotoori3@gmail.com, 12345)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTestcase2Invalid">
-                  </a> <!-- LoginTestcase2Invalid -->
-                  <span class="method-name">LoginTestcase2Invalid</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTestcase3InvalidEmailOnly">
-                  </a> <!-- LoginTestcase3InvalidEmailOnly -->
-                  <span class="method-name">LoginTestcase3InvalidEmailOnly</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TutorialsNinjaTestSuite-class-passed -->
-          <div class="suite-TutorialsNinjaTestSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.TutorialsNinja.qa.Testcases.SearchTestcases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -216,35 +144,26 @@
                   <a name="searchWithInvalidProduct">
                   </a> <!-- searchWithInvalidProduct -->
                   <span class="method-name">searchWithInvalidProduct</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TutorialsNinja.qa.Testcases.SearchTestcases.searchWithInvalidProduct(SearchTestcases.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinjaTestSuite-class-failed -->
+          <div class="suite-TutorialsNinjaTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TutorialsNinja.qa.Testcases.SearchTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="searchWithValidProduct">
                   </a> <!-- searchWithValidProduct -->
                   <span class="method-name">searchWithValidProduct</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TutorialsNinjaTestSuite-class-passed -->
-          <div class="suite-TutorialsNinjaTestSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.TutorialsNinja.qa.Testcases.RegisterTestcases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerTestcase1">
-                  </a> <!-- registerTestcase1 -->
-                  <span class="method-name">registerTestcase1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerTestcase2">
-                  </a> <!-- registerTestcase2 -->
-                  <span class="method-name">registerTestcase2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -259,10 +178,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;TutorialsNinjaTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.TutorialsNinja.qa.TestComponents.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.TutorialsNinja.qa.Testcases.LoginTest1&quot;/&gt;
-      &lt;class name=&quot;com.TutorialsNinja.qa.Testcases.RegisterTestcases&quot;/&gt;
       &lt;class name=&quot;com.TutorialsNinja.qa.Testcases.SearchTestcases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -277,7 +197,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -303,48 +223,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginTestcase1Valid')
-data.setCell(0, 2, 'com.TutorialsNinja.qa.Testcases.LoginTest1')
-data.setCell(0, 3, 6735);
+data.setCell(0, 1, 'searchWithValidProduct')
+data.setCell(0, 2, 'com.TutorialsNinja.qa.Testcases.SearchTestcases')
+data.setCell(0, 3, 5698);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registerTestcase2')
-data.setCell(1, 2, 'com.TutorialsNinja.qa.Testcases.RegisterTestcases')
-data.setCell(1, 3, 5833);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'registerTestcase1')
-data.setCell(2, 2, 'com.TutorialsNinja.qa.Testcases.RegisterTestcases')
-data.setCell(2, 3, 5673);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'LoginTestcase1Valid')
-data.setCell(3, 2, 'com.TutorialsNinja.qa.Testcases.LoginTest1')
-data.setCell(3, 3, 5288);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'LoginTestcase1Valid')
-data.setCell(4, 2, 'com.TutorialsNinja.qa.Testcases.LoginTest1')
-data.setCell(4, 3, 5284);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'LoginTestcase3InvalidEmailOnly')
-data.setCell(5, 2, 'com.TutorialsNinja.qa.Testcases.LoginTest1')
-data.setCell(5, 3, 5161);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'LoginTestcase2Invalid')
-data.setCell(6, 2, 'com.TutorialsNinja.qa.Testcases.LoginTest1')
-data.setCell(6, 3, 5136);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'searchWithValidProduct')
-data.setCell(7, 2, 'com.TutorialsNinja.qa.Testcases.SearchTestcases')
-data.setCell(7, 3, 4963);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'searchWithInvalidProduct')
-data.setCell(8, 2, 'com.TutorialsNinja.qa.Testcases.SearchTestcases')
-data.setCell(8, 3, 4240);
+data.setCell(1, 1, 'searchWithInvalidProduct')
+data.setCell(1, 2, 'com.TutorialsNinja.qa.Testcases.SearchTestcases')
+data.setCell(1, 3, 4178);
 window.suiteTableData['TutorialsNinjaTestSuite']= { tableData: data, tableDiv: 'times-div-TutorialsNinjaTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-TutorialsNinjaTestSuite">
               </div> <!-- times-div-TutorialsNinjaTestSuite -->
             </div> <!-- times-div -->
@@ -370,84 +262,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.TutorialsNinja.qa.Testcases.LoginTest1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.TutorialsNinja.qa.Testcases.SearchTestcases</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">LoginTestcase1Valid(amotoori3@gmail.com, 12345)</span>
+                <span class="method-name">searchWithValidProduct</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6739 ms</span>
+                <span class="method-start">5703 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">LoginTestcase1Valid(amotoori3@gmail.com, 12345)</span>
-                <span class="method-start">7150 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">12436 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">LoginTestcase1Valid(amotoori3@gmail.com, 12345)</span>
-                <span class="method-start">12755 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">18044 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">LoginTestcase2Invalid</span>
-                <span class="method-start">18395 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">23532 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">LoginTestcase3InvalidEmailOnly</span>
-                <span class="method-start">23865 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">29034 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.TutorialsNinja.qa.Testcases.RegisterTestcases</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">registerTestcase1</span>
-                <span class="method-start">29400 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">35076 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">registerTestcase2</span>
-                <span class="method-start">35400 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">41244 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.TutorialsNinja.qa.Testcases.SearchTestcases</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">searchWithValidProduct</span>
-                <span class="method-start">41513 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">46480 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">searchWithInvalidProduct</span>
-                <span class="method-start">46750 ms</span>
+                <span class="method-start">6020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">50990 ms</span>
+                <span class="method-start">10402 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

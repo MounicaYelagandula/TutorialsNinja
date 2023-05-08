@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="TutorialsNinjaTestSuite">
+	<listeners>
+		<listener class-name="com.TutorialsNinja.qa.TestComponents.Listeners"></listener>
+	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.TutorialsNinja.qa.Testcases.LoginTest1"/>
-      <class name="com.TutorialsNinja.qa.Testcases.RegisterTestcases"/>
+      
         <class name="com.TutorialsNinja.qa.Testcases.SearchTestcases"/>
     </classes>
   </test> <!-- Test -->

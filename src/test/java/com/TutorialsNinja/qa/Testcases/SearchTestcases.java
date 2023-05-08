@@ -3,11 +3,11 @@ package com.TutorialsNinja.qa.Testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.TutorialsNinja.qa.TestComponents.BaseTest;
+import com.TutorialsNinja.qa.TestComponents.Base;
 
 import pageObjects.HomePage;
 
-public class SearchTestcases extends BaseTest {
+public class SearchTestcases extends Base{
 	
 	@Test(priority=1)
 	public void searchWithValidProduct() throws Exception
@@ -25,6 +25,7 @@ public class SearchTestcases extends BaseTest {
 		homePageObject.search("honda");
 		String msg=homePageObject.getNoSearchResultMessage();
 		Assert.assertEquals("There is no product that matches the search criteria.", msg);
+		Assert.assertTrue(false);
 	}
 
 	

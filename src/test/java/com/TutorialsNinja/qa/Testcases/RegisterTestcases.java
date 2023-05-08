@@ -2,11 +2,11 @@ package com.TutorialsNinja.qa.Testcases;
 
 import org.testng.annotations.Test;
 
-import com.TutorialsNinja.qa.TestComponents.BaseTest;
+import com.TutorialsNinja.qa.TestComponents.Base;
 
 import pageObjects.HomePage;
 
-public class RegisterTestcases extends BaseTest {
+public class RegisterTestcases extends Base {
 	
 	public static int number=28;
 	@Test(priority = 1)
