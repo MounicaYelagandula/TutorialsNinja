@@ -9,8 +9,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UtilityMethods {
-	public static final int IMPLICIT_WAIT_TIME=10; //no need of static beacuse other class is not using these variables(classname.variable)
-	public static final int EXPLICIT_WAIT_TIME=5;
+	public final int IMPLICIT_WAIT_TIME=10; //no need of static beacuse other class is not using these variables(classname.variable)
+	public final int EXPLICIT_WAIT_TIME=5;
 	public WebDriver driver;
 	public WebDriverWait w;
 	

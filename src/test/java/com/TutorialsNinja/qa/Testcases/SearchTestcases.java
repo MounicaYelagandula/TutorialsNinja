@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.TutorialsNinja.qa.TestComponents.Base;
+import com.TutorialsNinja.qa.TestComponents.RetryTest;
 
 import pageObjects.HomePage;
 
@@ -18,14 +19,14 @@ public class SearchTestcases extends Base{
 		Assert.assertTrue(match, "The product you searched does not exist");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,retryAnalyzer = RetryTest.class)
 	public void searchWithInvalidProduct() throws Exception
 	{
 		HomePage homePageObject=launchApplication();
 		homePageObject.search("honda");
 		String msg=homePageObject.getNoSearchResultMessage();
 		Assert.assertEquals("There is no product that matches the search criteria.", msg);
-		//Assert.assertTrue(false);
+		Assert.assertTrue(false);
 	}
 
 	
